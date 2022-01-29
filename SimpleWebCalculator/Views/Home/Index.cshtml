@@ -1,0 +1,17 @@
+﻿@model IEnumerable<BLL.DTOs.ResultDTO>
+
+@{
+    ViewBag.Title = "Calculator";
+}
+
+<table>
+    <tr>
+        <td>Result</td>
+    </tr>
+    <tr>
+        @foreach (var results in Model)
+        {
+            <td>@results.Value</td>
+        }  
+    </tr>
+</table>

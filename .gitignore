@@ -2,3 +2,7 @@
 global.json
 SimpleWebCalculator/bin/
 SimpleWebCalculator/obj/
+DAL/bin/
+DAL/obj/
+BLL/bin/
+BLL/obj/
