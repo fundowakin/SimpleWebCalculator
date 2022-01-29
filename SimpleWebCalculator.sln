@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebCalculator", "SimpleWebCalculator\SimpleWebCalculator.csproj", "{A937C987-B103-4C78-BE47-CEEE75255D32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{970B0E96-F461-4859-8CAC-ABBEAEEC560B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{082E8894-606D-4946-8678-8B84B781959B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{A937C987-B103-4C78-BE47-CEEE75255D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A937C987-B103-4C78-BE47-CEEE75255D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A937C987-B103-4C78-BE47-CEEE75255D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970B0E96-F461-4859-8CAC-ABBEAEEC560B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970B0E96-F461-4859-8CAC-ABBEAEEC560B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970B0E96-F461-4859-8CAC-ABBEAEEC560B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970B0E96-F461-4859-8CAC-ABBEAEEC560B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082E8894-606D-4946-8678-8B84B781959B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082E8894-606D-4946-8678-8B84B781959B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082E8894-606D-4946-8678-8B84B781959B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082E8894-606D-4946-8678-8B84B781959B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
