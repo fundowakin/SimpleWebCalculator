@@ -12,7 +12,7 @@ namespace DAL.UOW
 
         public UnitOfWork()
         {
-            _context = new CalculatorContext();
+            _context ??= new CalculatorContext();
         }
 
         public IRepository<Result> ResultRepository => _resultRepository ??= new ResultRepository(_context);
