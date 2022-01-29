@@ -9,6 +9,6 @@ namespace DAL.Repositories
         public T GetById(int id);
         public void Create(T item);
         public void Update(T item);
-        public void Delete(int id);
+        public void Delete(T item);
     }
 }
