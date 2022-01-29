@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using AutoMapper;
 using BLL.DTOs;
 using DAL.Models;
@@ -9,11 +8,11 @@ namespace BLL.Services
 {
     public class ResultService : IService<ResultDTO>
     {
-        private UnitOfWork _unitOfWork;
+        private readonly UnitOfWork _unitOfWork;
 
-        public ResultService(UnitOfWork unitOfWork)
+        public ResultService()
         {
-            _unitOfWork = unitOfWork;
+            _unitOfWork = new UnitOfWork();
         }
 
         public IEnumerable<ResultDTO> GetAll()
